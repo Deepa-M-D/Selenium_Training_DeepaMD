@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-23T15:34:47 IST" name="Suite" finished-at="2022-11-23T15:35:17 IST" duration-ms="29789">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T15:34:47 IST" name="Smoke" finished-at="2022-11-23T15:35:17 IST" duration-ms="29789">
+      <class name="reportgeneration.AlertDemo">
+        <test-method signature="alertAccept()[pri:0, instance:reportgeneration.AlertDemo@156b88f5]" started-at="2022-11-23T15:34:47 IST" name="alertAccept" finished-at="2022-11-23T15:35:07 IST" duration-ms="19940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertAccept -->
+      </class> <!-- reportgeneration.AlertDemo -->
+      <class name="reportgeneration.MyFirstTestNGTest">
+        <test-method signature="createAccount()[pri:0, instance:reportgeneration.MyFirstTestNGTest@71def8f8]" started-at="2022-11-23T15:34:47 IST" name="createAccount" finished-at="2022-11-23T15:34:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="deleteAccount()[pri:0, instance:reportgeneration.MyFirstTestNGTest@71def8f8]" started-at="2022-11-23T15:34:48 IST" name="deleteAccount" finished-at="2022-11-23T15:34:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+        <test-method signature="logOutFromApplication()[pri:1, instance:reportgeneration.MyFirstTestNGTest@71def8f8]" started-at="2022-11-23T15:34:48 IST" name="logOutFromApplication" finished-at="2022-11-23T15:34:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="login()[pri:2, instance:reportgeneration.MyFirstTestNGTest@71def8f8]" started-at="2022-11-23T15:34:48 IST" name="login" finished-at="2022-11-23T15:34:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- reportgeneration.MyFirstTestNGTest -->
+      <class name="reportgeneration.AssertionDemo">
+        <test-method signature="login()[pri:0, instance:reportgeneration.AssertionDemo@bd4dc25]" started-at="2022-11-23T15:34:47 IST" name="login" finished-at="2022-11-23T15:34:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logOutFromApplication()[pri:0, instance:reportgeneration.AssertionDemo@bd4dc25]" started-at="2022-11-23T15:34:48 IST" name="logOutFromApplication" finished-at="2022-11-23T15:34:48 IST" depends-on-methods="reportgeneration.AssertionDemo.login" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+      </class> <!-- reportgeneration.AssertionDemo -->
+      <class name="reportgeneration.MyFirstSeleniumScript">
+        <test-method signature="mainrr()[pri:0, instance:reportgeneration.MyFirstSeleniumScript@383bfa16]" started-at="2022-11-23T15:34:47 IST" name="mainrr" finished-at="2022-11-23T15:34:56 IST" duration-ms="8621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainrr -->
+      </class> <!-- reportgeneration.MyFirstSeleniumScript -->
+      <class name="reportgeneration.MyFirstSeleniumScript2">
+        <test-method signature="maintttt()[pri:0, instance:reportgeneration.MyFirstSeleniumScript2@25084a1e]" started-at="2022-11-23T15:34:48 IST" name="maintttt" finished-at="2022-11-23T15:34:55 IST" duration-ms="7633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintttt -->
+      </class> <!-- reportgeneration.MyFirstSeleniumScript2 -->
+      <class name="reportgeneration.CalendarDateWithoutLoop">
+        <test-method signature="datePicker()[pri:0, instance:reportgeneration.CalendarDateWithoutLoop@3c73951]" started-at="2022-11-23T15:34:47 IST" name="datePicker" finished-at="2022-11-23T15:35:01 IST" duration-ms="13018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePicker -->
+      </class> <!-- reportgeneration.CalendarDateWithoutLoop -->
+      <class name="reportgeneration.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:34:48 IST" name="setup" finished-at="2022-11-23T15:34:56 IST" duration-ms="8752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validUsernameandPassword()[pri:1, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:34:56 IST" name="validUsernameandPassword" finished-at="2022-11-23T15:35:00 IST" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameandPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:00 IST" name="tearDown" finished-at="2022-11-23T15:35:00 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:00 IST" name="setup" finished-at="2022-11-23T15:35:04 IST" duration-ms="4173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsernameandPassword()[pri:2, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:04 IST" name="invalidUsernameandPassword" finished-at="2022-11-23T15:35:05 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameandPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:05 IST" name="tearDown" finished-at="2022-11-23T15:35:05 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:05 IST" name="setup" finished-at="2022-11-23T15:35:09 IST" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blankUsernameandPassword()[pri:3, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:09 IST" name="blankUsernameandPassword" finished-at="2022-11-23T15:35:09 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameandPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:09 IST" name="tearDown" finished-at="2022-11-23T15:35:09 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:09 IST" name="setup" finished-at="2022-11-23T15:35:13 IST" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noUsernameandPassword()[pri:4, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:13 IST" name="noUsernameandPassword" finished-at="2022-11-23T15:35:13 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUsernameandPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:13 IST" name="tearDown" finished-at="2022-11-23T15:35:13 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:13 IST" name="setup" finished-at="2022-11-23T15:35:17 IST" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noPassword()[pri:5, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:17 IST" name="noPassword" finished-at="2022-11-23T15:35:17 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportgeneration.LoginTest@32ee6fee]" started-at="2022-11-23T15:35:17 IST" name="tearDown" finished-at="2022-11-23T15:35:17 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- reportgeneration.LoginTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
