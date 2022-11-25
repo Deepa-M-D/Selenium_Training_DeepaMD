@@ -36,7 +36,7 @@ public class SeleniumGridDemo3{
         
         URL url=null;
         try {
-            url = new URL("deepadandin_OFnAaC:Zcjh7xaUzMxgEct5T2Hi");
+            url = new URL("https://deepadandin_OFnAaC:Zcjh7xaUzMxgEct5T2Hi@hub-cloud.browserstack.com/wd/hub");
         } catch (MalformedURLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
