@@ -23,6 +23,7 @@ public class ShadowDom {
 		SearchContext shadow=element.getShadowRoot();
 		Thread.sleep(3000);
 		shadow.findElement(By.xpath("#kils")).sendKeys("Deepa");
+		driver.quit();
 
 
 	}
